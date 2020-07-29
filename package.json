@@ -1,0 +1,27 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "apollo.ts",
+  "scripts": {
+    "start": "ts-node apollo.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.16.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^15.3.0",
+    "typescript": "^3.9.3"
+  },
+  "devDependencies": {
+    "ts-node": "^8.10.2",
+    "@types/graphql": "^14.5.0",
+    "@types/bluebird": "^3.5.30",
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.6",
+    "@types/node": "^13.11.1"
+  }
+}
